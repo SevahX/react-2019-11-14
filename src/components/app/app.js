@@ -6,6 +6,7 @@ import './app.css'
 import {store} from '../../store'
 import {Provider} from 'react-redux'
 import Counter from '../counter'
+import Order from '../order'
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Layout.Content>
               <Restaurants />
             </Layout.Content>
+            <Order />
           </Layout>
         </div>
       </Provider>
